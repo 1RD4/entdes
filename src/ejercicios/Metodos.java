@@ -27,5 +27,20 @@ public class Metodos {
 		
 		return (int)caracter;
 	}
+	
+	static void multiplosDeTres (int numero) {
+		
+		int multiplo = 1;
+		
+		while(multiplo <= numero) {
+			
+			if (multiplo%3 == 0) {
+				
+				System.out.println(multiplo + " ");
+			}
+			
+			multiplo++;
+		}
+	}
 
 }
