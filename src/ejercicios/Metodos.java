@@ -8,6 +8,8 @@ public class Metodos {
 		stringConcat("Hola", "Adios");
 		
 		integerToChar(10);
+		
+		System.out.println(charToDecimal('F'));
 
 	}
 
@@ -19,6 +21,11 @@ public class Metodos {
 	static char integerToChar (int numero) {
 		
 		return (char)numero;
+	}
+	
+	static double charToDecimal (char caracter) {
+		
+		return (int)caracter;
 	}
 
 }
